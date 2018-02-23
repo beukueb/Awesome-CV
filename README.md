@@ -116,4 +116,5 @@ Good luck!
 # CVN extended documentation
 ## Mac OS X
 
-- install https://fontawesome.com/
+- go to folder `fonts` and double click on `FontAwesome.ttf` to install
+  (https://fontawesome.com/)
