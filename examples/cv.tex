@@ -12,6 +12,10 @@
 % Template license:
 % CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
 %
+% Make:
+% xelatex cv.tex
+% /usr/bin/perl /usr/bin/biber cv
+% xelatex cv.tex
 
 
 %-------------------------------------------------------------------------------
@@ -22,7 +26,9 @@
 
 \usepackage{hyperref}
 \usepackage[backend=biber,style=authoryear]{biblatex}
-\addbibresource{publications.bib} % Specify the bibliography file to include publications
+\addbibresource{works_orcid.bib} % Specify the bibliography file to include publications
+% publications.bib exported from bib.ugent or works_orcid.bib exported
+% from orcid
 
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
@@ -58,10 +64,11 @@
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo{./examples/profile.png}
 \name{Christophe}{Van Neste}
-\position{Postdoctoral Researcher{\enskip\cdotp\enskip}Bioinformatician{\enskip\cdotp\enskip}Software Engineer}
-\address{Violierstraat 57, 8000 Brugge, BELGIUM}
+\position{Bioengineer{\enskip\cdotp\enskip}Bioinformatician{\enskip\cdotp\enskip}Software Engineer}
+% \address{Violierstraat 57, 8000 Brugge, BELGIUM}
+\address{Island str. G-3921, Thuwal 23955-6900, Kingdom of Saudi Arabia}
 
-\mobile{(+32) 486-57-57-51}
+\mobile{(+966) 54-470-1941}
 \email{Christophe@Van-Neste.be}
 \homepage{www.dicaso.be}
 \github{beukueb}
@@ -73,7 +80,8 @@
 % \reddit{reddit-id}
 % \extrainfo{extra informations}
 
-\quote{``Philosopher and [bio]engineer in theory, visionary [bio]programmer in practice."}
+%\quote{``Philosopher and [bio]engineer in theory, visionary [bio]programmer in practice."}
+%\quote{``Philosophy and engineering meet in teaching."}
 
 
 %-------------------------------------------------------------------------------
